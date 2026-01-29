@@ -8,4 +8,5 @@ int main()
     hra=0.3*basic;
     gross=basic+da+hra;
     printf("Gross Salary: %d",gross);
+
 }
