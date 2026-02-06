@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
+
 int main() {
     int base, exp;
     long double result = 1.0;
@@ -14,4 +14,5 @@ int main() {
     }
     cout << "Answer = " << result;
     return 0;
+
 }
