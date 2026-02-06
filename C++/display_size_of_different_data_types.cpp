@@ -1,14 +1,15 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
+
 int main() {
-    int intType;
-    float floatType;
-    double doubleType;
-    char charType;
-    cout << "Size of int: %zu bytes\n";
-    cout << "Size of float: %zu bytes\n";
-    cout << "Size of double: %zu bytes\n";
-    cout << "Size of char: %zu byte\n";
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+    cout << "Size of short: " << sizeof(short) << " bytes" << endl;
+    cout << "Size of long: " << sizeof(long) << " bytes" << endl;
+    cout << "Size of long long: " << sizeof(long long) << " bytes" << endl;
+    cout << "Size of boolean: " << sizeof(bool) << " byte" << endl;
+
     return 0;
 }
