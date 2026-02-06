@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
 int main() {
     int a, b, c;
@@ -12,4 +11,5 @@ int main() {
     else
         cout << c << " is the largest number";
     return 0;
+
 }
